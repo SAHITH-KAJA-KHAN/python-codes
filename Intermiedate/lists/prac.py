@@ -36,5 +36,7 @@ print(list(res))
 
 
 
-
+listofint = list(map(int,input().split()))
+print(listofint)
+print(type(listofint))
 
