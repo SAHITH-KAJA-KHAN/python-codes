@@ -1,10 +1,10 @@
 # Input: [1, 2, 3, 4, 5]  
 # Output: True  
-x = [1,2,9,6,8]
+# x = [1,2,9,6,8]
 
-# Using all() function to check if all elements in the list are greater than 0
+# # Using all() function to check if all elements in the list are greater than 0
 
-print(all(i > 0 for i in x))
+# print(all(i > 0 for i in x))
 
 
     
