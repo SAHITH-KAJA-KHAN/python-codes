@@ -23,3 +23,8 @@ if is_sorted(arr):
     print("True (The array is sorted)")
 else:
     print("False (The array is not sorted)")
+
+n = input()
+arr = list(map(int,n.split()))
+
+print(is_sorted(arr))
