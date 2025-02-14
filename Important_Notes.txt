@@ -1,25 +1,4 @@
-<<<<<<< Tabnine <<<<<<<
-Counter class//-
-// Counter class//+
-////+
-// This class provides a simple way to count occurrences of items.//+
-////+
-// Usage://+
-////+
-// 1. Create an instance of the Counter class.//+
-// 2. Use the `increment` method to increment the count of an item.//+
-// 3. Use the `getCount` method to retrieve the count of an item.//+
-// 4. Use the `reset` method to reset the count of all items.//+
-////+
-// Example://+
-////+
-// Counter counter = new Counter();//+
-// counter.increment("apple");//+
-// counter.increment("banana");//+
-// counter.increment("apple");//+
-// System.out.println(counter.getCount("apple")); // Output: 2//+
-// System.out.println(counter.getCount("banana")); // Output: 1//+
-// counter.reset();//+
-// System.out.println(counter.getCount("apple")); // Output: 0//+
-// System.out.println(counter.getCount("banana")); // Output: 0//+
->>>>>>> Tabnine >>>>>>>// {"conversationId":"d6b138fc-1490-4f6b-af61-e5322b1e7e23","source":"instruct"}
+Counter class
+            most_common()
+
+
