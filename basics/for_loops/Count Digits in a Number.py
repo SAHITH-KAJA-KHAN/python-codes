@@ -8,4 +8,4 @@ for i in range(1,5+1):
   n=n//10
   c = c+1 
   
-print(c)7
+print(c)
