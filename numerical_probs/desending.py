@@ -21,3 +21,18 @@
 # print(a, '>', b, '>', c, '>', d)
 
 
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+
+# Finding the maximum and swapping
+a, b = max(a, b), a + b - max(a, b)
+a, c = max(a, c), a + c - max(a, c)
+a, d = max(a, d), a + d - max(a, d)
+b, c = max(b, c), b + c - max(b, c)
+b, d = max(b, d), b + d - max(b, d)
+c, d = max(c, d), c + d - max(c, d)
+
+
+print(a, ">", b, ">", c, ">", d)
