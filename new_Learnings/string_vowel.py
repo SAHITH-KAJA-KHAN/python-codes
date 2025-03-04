@@ -5,4 +5,4 @@ for i in st:
         # print()
     # elif i not in "aeiou AEIOU":
     #     print(i, end = ' ')
-      
+print(st)
