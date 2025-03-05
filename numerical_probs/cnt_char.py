@@ -10,9 +10,9 @@ print()
 
 
 s = input()
-unique_chars = []  
+visited_char = []  
 
 for i in s:
-    if i not in unique_chars:  
+    if i not in visited_char:  
         print(i,s.count(i), end=" ")
-        unique_chars.append(i) 
+        visited_char.append(i) 
