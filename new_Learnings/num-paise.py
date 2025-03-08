@@ -5,4 +5,4 @@ for denom in denominations:
     count = amount // denom  
     print(denom, "-", count)
     amount %= denom
-    
+
