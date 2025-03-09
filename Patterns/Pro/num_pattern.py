@@ -5,7 +5,7 @@ num2 = n * (n + 1) // 2 + 1  # Start number for the second pyramid
 # Printing the joined pyramids
 for row in range(n):
     for space in range(row):
-        print("  ", end="")  # Two spaces for alignment
+        print("   ", end="")  # Two spaces for alignment
 
     # First pyramid (left side)
     for col in range(n - row):
