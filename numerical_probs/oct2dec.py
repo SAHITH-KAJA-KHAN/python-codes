@@ -1,4 +1,5 @@
 octal_num = int(input("Enter an octal number: "))
+dec = int(input())
 decimal_num = 0
 power = 0
 
@@ -8,4 +9,5 @@ while octal_num > 0:
         octal_num //= 10  
         power += 1  
    
-print (decimal_num) 
+#print (decimal_num) 
+print(hex(dec), "in hexadecimal.")
