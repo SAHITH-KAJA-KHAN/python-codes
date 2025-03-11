@@ -1,4 +1,4 @@
-n = 4  # Change this value for different sizes
+n = 4 # Change this value for different sizes
 
 for i in range(2 * n - 1):  # Loop through rows (0 to 6)
     for j in range(2 * n - 1):  # Loop through columns (0 to 6)
