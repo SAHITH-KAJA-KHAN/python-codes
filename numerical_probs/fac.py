@@ -1,9 +1,7 @@
 num = int(input())
-c=0
-for i in range(1, num+1):
+
+sum = 0
+for i in range(1, num):
   if(num%i == 0):
-    print(i, end=" ")
-    c+=1
-print()
-print(c)
-    
+    sum = sum + i
+print(sum, end=" ")
